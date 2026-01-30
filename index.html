@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<link href="style.css" rel="stylesheet">
+					<title>Quiz Code Interface</title>
+					</head>
+					<body>
+						<header>
+							<img src="https://i.postimg.cc/63QLrWWx/logo.png" alt="Logo Quiz"/>
+								<h1>Recherche de question par code</h1>
+								<input type="text" id="codeInput" placeholder="Entrez un code (ex : CA1)"/></br>
+									
+									<button onclick="searchQuestion('');">Valider</button>
+									<button onclick="resetPage();">Nouvelle recherche</button>
+									<button onclick="openQRScanner();">📷 Scan QR</button>
+						</header>
+									<div id="qr-overlay" class="qr-overlay" style="display:none">
+										<div id="qr-reader" class="qr-reader" ></div>
+									</div>
+									<div id="question-box" class="">
+										<div id="question-text"></div>
+										<div class="button-row">
+											<button onclick="revealAnswer()">Réponse</button>
+											<button onclick="searchQuestion('')">Nouvelle question</button>
+											<button onclick="resetPage()">Changer de code</button>
+										</div>
+										<div id="answer-text" class="reveal"></div>
+									</div>
+									
+
+									<script src="https://unpkg.com/html5-qrcode"></script>
+									<script src="script.js"></script>
+
+	</body>
+</html>

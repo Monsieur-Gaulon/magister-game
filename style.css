@@ -1,0 +1,87 @@
+body {
+	font-family: 'Segoe UI', sans-serif;
+	margin: 0;
+	background-color: #f9f9f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+	color: #333;
+}
+header {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+header img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}
+h1 {
+	margin: 1rem 0;
+	font-size: 1.8rem;
+}
+input[type="text"] {
+	padding: 0.8rem;
+	font-size: 1rem;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	width: 200px;
+	margin-bottom: 1rem;
+}
+button {
+	padding: 0.6rem 1.2rem;
+	font-size: 1rem;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	background-color: #444;
+	color: white;
+	margin: 0.5rem;
+}
+#question-box {
+	margin-top: 2rem;
+	padding: 1.5rem;
+	border-radius: 12px;
+	max-width: 600px;
+	width: 100%;
+	display: none;
+	text-align: center;
+	font-size: 1.3rem;
+}
+.reveal {
+	margin-top: 1rem;
+	font-weight: bold;
+	display: none;
+}
+.category-CA { background-color: #000; color: white; }
+.category-CB { background-color: #000; color: white; }
+.category-CF { background-color: #000; color: white; }
+.category-CJ { background-color: #000; color: white; }
+.category-GA { background-color: #003366; color: white; }
+.category-GB { background-color: #003366; color: white; }
+.category-LI { background-color: #990000; color: white; }
+.category-OR { background-color: #008000; color: white; }
+.category-OA { background-color: #4577ca; color: White; }
+.category-LA { background-color: #FFD700; color: black; }
+.category-LB { background-color: #FFD700; color: black; }
+.category-CH { background-color: #000; color: white; }
+
+
+.button-row {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+.qr-overlay {
+	margin : auto;
+	width:50%;
+	text-align : center;
+}
+.qr-reader{
+	margin:auto;
+	width:50%;
+	text-align : center;
+}
