@@ -77,11 +77,11 @@ button {
 }
 .qr-overlay {
 	margin : auto;
-	width:200%;
+	width:75%;
 	text-align : center;
 }
 .qr-reader{
 	margin:auto;
-	width:100%;
+	width:50%;
 	text-align : center;
 }
